@@ -1,0 +1,28 @@
+Q- What is limitation in switch case?
+A- Switch statement is a powerful statement used to handle many alternatives and provides good presentation for C program.
+   But there are some limitations with switch statement which are given below:
+    Logical operators cannot be used with switch statement. For instance
+    case k>=20:
+    is not allowed
+    Switch case variables can have only int and char data type. So float or no data type is allowed.
+    For instance in the switch syntax given below:
+    switch(ch)
+    {
+    case 1:
+    statement-1;
+    break;
+    case 2:
+    statement-2;
+    break;
+    }
+    In this ch can be integer or char and cannot be float or any other data type.
+  
+Q- Why do we need break in switch case?
+A- You can use the break statement to end processing of a particular labeled statement within the switch statement. It branches to the end of the switch statement. 
+   Without break , the program continues to the next labeled statement, executing the statements until a break or the end of the statement is reached.
+   
+
+
+
+
+
